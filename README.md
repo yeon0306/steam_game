@@ -1,7 +1,7 @@
+<div> <img src = "https://github.com/yeon0306/steam_game/assets/112537146/9515bfdc-4a13-443a-95bb-880740466568" width="800"></div>
 
 # KOELECTRA를 활용한 스팀 게임 리뷰 감성 분석
 
-<div> <img src = "https://github.com/yeon0306/steam_game/assets/112537146/9515bfdc-4a13-443a-95bb-880740466568" width="800"></div>
 
 
 # 1. 개요
@@ -9,6 +9,7 @@
 
 ## 1.1 문제 정의
 [스팀](https://store.steampowered.com/)은 밸브 코퍼레이션에서 개발한 디지털 관리 멀티플레이어 플랫폼이다. 많은 게임 개발사와 출판사가 스팀에서 출시하고 판매하고 있으며 서비스는 2003년 9월 12일 시작되어 현재에도 서비스 되고 있다. 2억 명의 사람들이 가입하여 동시접속자는 약 3000만으로, 다양한 게임을 디지털로 관리하며 배급하는 아주 큰 규모의 게임 플랫폼으로 알려져있다. </br>
+
 <div> <img src = "https://github.com/yeon0306/steam_game/assets/112537146/18cd9783-93d4-400e-9e41-b45f7a6f0823" width="800"></div>
 
 게임 리뷰는 소비자들에게 게임의 품질과 가치를 알려주는 역할을 한다.[[1]](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002231755)좋은 리뷰를 받은 게임은 높은 판매량과 수익을 기대할 수 있으며 리뷰 점수가 낮은 게임은 판매에 영향을 미칠 수 있다.[[2]](http://www.kodia.or.kr/upload/4/e69e99ca180c709fa8f29b190a140030.pdf) 또한 게임 리뷰를 통해 플레이어들은 게임 산업의 경향과 혁신을 파악할 수 있고 게임 개발사들은 경쟁적인 환경에서 품질을 향상시키고 새로운 아이디어를 도입할 동기를 얻을 수 있다.[[3]](https://s-space.snu.ac.kr/handle/10371/166332) </br>
@@ -16,7 +17,8 @@
 
 ## 1.2 데이터 및 모델 개요
 
-데이터는 스팀게임 리뷰 데이터셋을 활용하여 총 10만 건의 데이터에 대해서 사전 학습 언어 모델의 재학습(fine-tuning)을 수행한다.
+데이터는 [스팀게임 리뷰 데이터셋](https://github.com/bab2min/corpus/tree/master/sentiment)을 활용하여 총 10만 건의 데이터에 대해서 사전 학습 언어 모델의 재학습(fine-tuning)을 수행한다.
+스팀게임 리뷰 데이터셋의 수집 기간은 2020년 5월부터 2020년 06월까지 수집한 데이터셋이며 Steam의 각종 게임에 달린 한국어 리뷰를 수집되었다. 긍정과 부정의 비율이 1:1에 가깝도록 샘플링되어있다.
 
 | 입력 | 모델 |출력|
 |----------|---|---|
