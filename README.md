@@ -1,4 +1,4 @@
-<div> <img src = "https://github.com/yeon0306/steam_game/assets/112537146/9515bfdc-4a13-443a-95bb-880740466568" width="800"></div>
+![header](https://capsule-render.vercel.app/api?type=soft&color=auto&height=300&section=header&text=Steam%20Review&fontSize=90)<br/>
 
 # KOELECTRA를 활용한 스팀 게임 리뷰 감성 분석
 
