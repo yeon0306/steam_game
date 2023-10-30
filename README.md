@@ -83,11 +83,9 @@
   
 60945건의 데이터셋으로 구성되었다.
 
-- 긍/부정 그래프
+- 긍/부정 파이차트 
 
-*negative 0 / positive 1*
-
-![bar](https://github.com/yeon0306/steam_game/assets/112537146/748031ca-65de-4afb-9c5b-0fa2abf27bc9)
+![긍부정파이차트](https://github.com/yeon0306/steam_game/assets/112537146/91de4aeb-e7f1-425d-999e-94bc02fc9424)
 
 
 데이터 전처리 후에도 긍/부정 데이터가 1:1 비율로 나누어져있으며 부정적인 데이터가 30736건, 긍정적인 데이터가 30209건으로 </br> 부정적인 데이터가 조금 더 많은 것을 알 수 있다.
