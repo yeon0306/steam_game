@@ -89,7 +89,7 @@
 
 - 학습과 검증 데이터셋 분리
 
-![학습데이터수1](https://github.com/yeon0306/steam_game/assets/112537146/d411d719-904f-41bc-b721-507d2e6e782a)
+![데이터구조](https://github.com/yeon0306/steam_game/assets/112537146/8aaf2b47-e88e-4817-9af8-3cc11187ca2c)
 
 긍정적인 리뷰 데이터 2000건과 부정적인 리뷰 데이터 2000건을 랜덤으로 추출하여 총 4000건이다.
 
