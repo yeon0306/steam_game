@@ -89,11 +89,11 @@
 
 - 학습과 검증 데이터셋 분리
 
-![데이터구조](https://github.com/yeon0306/steam_game/assets/112537146/8aaf2b47-e88e-4817-9af8-3cc11187ca2c)
+![데이터구조](https://github.com/yeon0306/steam_game/assets/112537146/2fdefda9-b41d-4a51-bfaa-dd0dbe26600a)
 
 긍정적인 리뷰 데이터 2000건과 부정적인 리뷰 데이터 2000건을 랜덤으로 추출하여 총 4000건이다.
 
-![학습데이터수](https://github.com/yeon0306/steam_game/assets/112537146/eb786718-328d-4efb-8374-df93b3fb54e8)
+![학습데이터수](https://github.com/yeon0306/steam_game/assets/112537146/d063f8b6-1a2f-4b5b-ba76-f1874abd9fa0)
 
 학습 데이터 3200건, 검증 데이터 800건으로 분리하였다. 
   
