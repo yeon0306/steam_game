@@ -84,7 +84,7 @@
 
 - 긍정(1)/부정(0) 파이차트 
 
-<div><img src="https://github.com/yeon0306/steam_game/assets/112537146/a59e1266-cb99-4fa8-90d7-682a5d568faf" width="700"></div>
+<div><img src="https://github.com/yeon0306/steam_game/assets/112537146/a59e1266-cb99-4fa8-90d7-682a5d568faf" width="600"></div>
 
 데이터 전처리 후에도 긍/부정 데이터가 1:1 비율로 나누어져있으며 부정적인 데이터가 32037건, 긍정적인 데이터가 31646건으로 부정적인 데이터가 조금 더 많은 것을 알 수 있다.
 
