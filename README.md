@@ -91,11 +91,11 @@ KoELECTRA는 대규모 한국어 텍스트 데이터 말뭉치를 훈련하여 �
 
 ![데이터구조](https://github.com/yeon0306/steam_game/assets/112537146/2fdefda9-b41d-4a51-bfaa-dd0dbe26600a)
 
-긍정적인 리뷰 데이터 2000건과 부정적인 리뷰 데이터 2000건을 랜덤으로 추출하여 총 4000건이다.
+긍정적인 리뷰 데이터 2000개와 부정적인 리뷰 데이터 2000개를 랜덤으로 추출하여 총 4000개로 만들어졌다.
 
 ![학습데이터수](https://github.com/yeon0306/steam_game/assets/112537146/d063f8b6-1a2f-4b5b-ba76-f1874abd9fa0)
 
-학습 데이터 3200건, 검증 데이터 800건으로 분리하였다. 
+학습 데이터 3200개, 검증 데이터 800개로 분리하였다. 
   
 - 랜덤으로 추출한 학습 데이터의 구성
 
@@ -125,7 +125,7 @@ KoELECTRA는 대규모 한국어 텍스트 데이터 말뭉치를 훈련하여 �
 |4001|한국어가 나왔으면 좋겠다. 이거 나름 한국 팬도 있는데 말이다.ㅠㅠ|0|
 
 랜덤으로 추출한 학습 데이터의 애매한 리뷰 데이터들이다. 긍정인 리뷰는 부정으로 보이기도 하며 부정인 리뷰는 긍정으로 보이기도 한다.
-이런 오류가 있는 데이터들이 매우 많아 모델이 제대로 학습할 수 없는 것을 알 수 있다. 
+또한 게임 리뷰와 관련없는 내용들이 있는 데이터들이 매우 많아 모델이 제대로 학습할 수 없는 것을 알 수 있다. 
 
 - 임의로 추출한 학습 데이터의 구성 
 
@@ -139,7 +139,7 @@ KoELECTRA는 대규모 한국어 텍스트 데이터 말뭉치를 훈련하여 �
 |1001|사람들의 좋은 평에 이끌려서 샀으나 결과는? 좆노잼 미친노잼|0|
 |1001|어떤 미친 러시아인이 지랄해서 죽이는데 관리자네 좆같은게임 왜하냐|0|
 
-게임 리뷰를 읽었을 때 긍정인지 부정인지 판단할 수 없는 리뷰들은 모두 제외하고, 사람이 읽었을 때 긍부정인지 판단할 수 있는 정도의 리뷰 데이터만
+리뷰를 읽었을 때 긍정인지 부정인지 판단할 수 없는 리뷰들은 모두 제외하고 사람이 읽었을 때 긍부정인지 판단할 수 있는 정도의 리뷰 데이터만
 긍정적인 리뷰 500개, 부정적인 리뷰 500개으로 총 1000개의 데이터셋을 만들었다. 학습 데이터는 800개, 검증 데이터는 200개로 분리하였다. 
 
 <table>
@@ -150,13 +150,18 @@ KoELECTRA는 대규모 한국어 텍스트 데이터 말뭉치를 훈련하여 �
 
 # 3. 재학습 결과
 ## 3.1 개발 환경
-- pycharm, python, torch, pandas, ...
--
+<img src="https://img.shields.io/badge/pycharm-000000?style=flat-square&logo=pycharm&logoColor=white"/> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/> <img src="https://img.shields.io/badge/torch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/> <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white"/> <img src="https://img.shields.io/badge/numpy-013243?style=flat-square&logo=numpy&logoColor=white"/> <img src="https://img.shields.io/badge/transformers-81c147?style=flat-square&logo=transformers&logoColor=white"/> <img src="https://img.shields.io/badge/scikit-learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white"/>
 ## 3.2 KOELECTRA fine-tuning
 ## 3.3 학습 결과 그래프
 
 
 <div><img src="https://github.com/yeon0306/steam_game/assets/112537146/bc55087b-e460-472f-a834-86ee7afdac7f" width="500"><img src="https://github.com/yeon0306/steam_game/assets/112537146/66851e62-ec7d-4f09-b7c8-730789279208" width="500"></div>
+
+<table>
+  <tr align="center"><th></th><th></th><th>Epoch 1</th><th>Epoch 2</th><th>Epoch 3</th><th>Epoch 4</th></tr>
+  <tr align="center"><th rowspan="2">학습데이터</th><td>평균 학습 오차</td><td>0.58</td><td>0.37</td><td>0.24</td><td>0.15</td></tr>
+  <tr align="center"><td>검증 정확도</td><td>0.74</td><td>0.86</td><td>0.87</td><td>0.89</td></tr>
+
 
 
 # 4. 배운점
