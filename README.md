@@ -148,7 +148,7 @@
 ## 3.2 KOELECTRA fine-tuning
 ## 3.3 학습 결과 그래프
 
-<div><img src="https://github.com/yeon0306/steam_game/assets/112537146/bc55087b-e460-472f-a834-86ee7afdac7f" width="500"><img src="https://github.com/yeon0306/steam_game/assets/112537146/66851e62-ec7d-4f09-b7c8-730789279208" width="500"></div>
+<div><img src="https://github.com/yeon0306/steam_game/assets/112537146/bc55087b-e460-472f-a834-86ee7afdac7f" width="400"><img src="https://github.com/yeon0306/steam_game/assets/112537146/66851e62-ec7d-4f09-b7c8-730789279208" width="400"></div>
 
 
 # 4. 배운점
