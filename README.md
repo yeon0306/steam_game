@@ -10,7 +10,7 @@
 
 <div> <img src = "https://github.com/yeon0306/steam_game/assets/112537146/18cd9783-93d4-400e-9e41-b45f7a6f0823" width="800"></div>
 
-게임 리뷰는 소비자들에게 게임의 품질과 가치를 알려주는 역할을 한다.[[1]](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002231755)좋은 리뷰를 받은 게임은 높은 판매량과 수익을 기대할 수 있으며 리뷰 점수가 낮은 게임은 판매에 영향을 미칠 수 있다.[[2]](http://www.kodia.or.kr/upload/4/e69e99ca180c709fa8f29b190a140030.pdf) 또한 게임 리뷰를 통해 플레이어들은 게임 산업의 경향과 혁신을 파악할 수 있고 게임 개발사들은 경쟁적인 환경에서 품질을 향상시키고 새로운 아이디어를 도입할 동기를 얻을 수 있다.[[3]](https://s-space.snu.ac.kr/handle/10371/166332) </br>
+게임 리뷰는 소비자들에게 게임의 품질과 가치를 알려주는 역할을 한다.[[1]](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002231755)좋은 리뷰를 받은 게임은 높은 판매량과 수익을 기대할 수 있으며 리뷰 점수가 낮은 게임은 판매에 영향을 미칠 수 있다.[[2]](http://www.kodia.or.kr/upload/4/e69e99ca180c709fa8f29b190a140030.pdf) 또한 게임 리뷰를 통해 플레이어들은 게임 산업의 경향과 혁신을 파악할 수 있고 게임 개발사들은 경쟁적인 환경에서 품질을 향상시키고 새로운 아이디어를 도입할 동기를 얻을 수 있다.[[3]](https://s-space.snu.ac.kr/handle/10371/166332)
 이 프로젝트에서는 많은 수의 게임 소비자들의 리뷰 데이터를 활용하여 소비자가 게임이 유용하다고 판단하는데 영향을 미치는 요인을 파악하고 게임 장르, 평점 등 다양한 특징에 따라 긍정 또는 부정을 예측하는 인공지능 모델을 개발하고자 한다.
 
 ### 1.2 데이터 및 모델 개요
