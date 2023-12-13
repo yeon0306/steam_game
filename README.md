@@ -148,9 +148,12 @@ KoELECTRA는 대규모 한국어 텍스트 데이터 말뭉치를 훈련하여 �
 </table>
 
 # 3. 재학습 결과
+
 ## 3.1 개발 환경
 <img src="https://img.shields.io/badge/pycharm-000000?style=flat-square&logo=pycharm&logoColor=white"/> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/> <img src="https://img.shields.io/badge/torch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/> <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white"/> <img src="https://img.shields.io/badge/numpy-013243?style=flat-square&logo=numpy&logoColor=white"/> <img src="https://img.shields.io/badge/transformers-81c147?style=flat-square&logo=transformers&logoColor=white"/> <img src="https://img.shields.io/badge/scikit-learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white"/>
 ## 3.2 KOELECTRA fine-tuning
+
+
 ## 3.3 학습 결과 그래프
 
 
@@ -160,7 +163,7 @@ KoELECTRA는 대규모 한국어 텍스트 데이터 말뭉치를 훈련하여 �
   <tr align="center"><th></th><th></th><th>Epoch 1</th><th>Epoch 2</th><th>Epoch 3</th><th>Epoch 4</th></tr>
   <tr align="center"><th rowspan="2">학습데이터</th><td>평균 학습 오차</td><td>0.58</td><td>0.37</td><td>0.24</td><td>0.15</td></tr>
   <tr align="center"><td>검증 정확도</td><td>0.74</td><td>0.86</td><td>0.87</td><td>0.89</td></tr>
-
+</table>
 
 
 ## 3.4 모델 적용
