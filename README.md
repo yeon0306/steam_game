@@ -163,4 +163,21 @@ KoELECTRA는 대규모 한국어 텍스트 데이터 말뭉치를 훈련하여 �
 
 
 
+## 3.4 모델 적용
+
+학습 모델을 전체 데이터(63,683건)에 적용한 결과
+
+```
+test steps :  1 Accuracy :  0.875
+test steps :  2 Accuracy :  0.625
+test steps :  3 Accuracy :  0.875
+...
+test steps :  7959 Accuracy :  1.0
+test steps :  7960 Accuracy :  0.875
+test steps :  7961 Accuracy :  0.6666666666666666
+Accuracy: 0.74
+test took: 2:30:16
+```
+
+
 # 4. 배운점
