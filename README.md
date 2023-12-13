@@ -1,7 +1,7 @@
 ![header](https://capsule-render.vercel.app/api?type=soft&color=auto&height=300&section=header&text=Steam%20Review&fontSize=90)<br/>
 
 # KOELECTRA를 활용한 스팀 게임 리뷰 감성 분석
-이번 프로젝트에서는 한국어 자연어 처리 모델인 KOELECTRA를 활용하여 스팀 게임 리뷰의 긍부정 예측을 하고자 한다.
+한국어 자연어 처리 모델인 KOELECTRA를 활용하여 스팀 게임 리뷰의 긍부정 예측
 
 ## 1. 개요
 
