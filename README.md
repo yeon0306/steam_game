@@ -151,13 +151,14 @@ KoELECTRA는 대규모 한국어 텍스트 데이터 말뭉치를 훈련하여 �
 
 ## 3.1 개발 환경
 <img src="https://img.shields.io/badge/pycharm-000000?style=flat-square&logo=pycharm&logoColor=white"/> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/> <img src="https://img.shields.io/badge/torch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/> <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white"/> <img src="https://img.shields.io/badge/numpy-013243?style=flat-square&logo=numpy&logoColor=white"/> <img src="https://img.shields.io/badge/transformers-81c147?style=flat-square&logo=transformers&logoColor=white"/> <img src="https://img.shields.io/badge/scikit-learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white"/>
+
 ## 3.2 KOELECTRA fine-tuning
 
 
 ## 3.3 학습 결과 그래프
 
 
-<div><img src="https://github.com/yeon0306/steam_game/assets/112537146/bc55087b-e460-472f-a834-86ee7afdac7f" width="500"><img src="https://github.com/yeon0306/steam_game/assets/112537146/66851e62-ec7d-4f09-b7c8-730789279208" width="500"></div>
+<div><img src="https://github.com/yeon0306/steam_game/assets/112537146/bc55087b-e460-472f-a834-86ee7afdac7f" width="400"><img src="https://github.com/yeon0306/steam_game/assets/112537146/66851e62-ec7d-4f09-b7c8-730789279208" width="400"></div>
 
 <table>
   <tr align="center"><th></th><th></th><th>Epoch 1</th><th>Epoch 2</th><th>Epoch 3</th><th>Epoch 4</th></tr>
